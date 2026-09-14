@@ -11,6 +11,14 @@ const Navbar = () => {
                     </h2>
                 </div>
 
+                <div className="flex gap-6 text-sm text-gray-500">
+                    <a href="#" className="text-pink-600">Home</a>
+                    <a href="#">Technologies</a>
+                    <a href="#">Projects</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </div>
+
                 
             </div>
         </nav>
