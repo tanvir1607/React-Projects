@@ -5,6 +5,7 @@ import App from './App.tsx'
 import Navbar from './components/Navbar.tsx'
 import Banner from './components/Banner.tsx'
 import Technologies from './components/Technologies.tsx'
+import Footer from './components/Footer.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
