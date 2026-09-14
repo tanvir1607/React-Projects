@@ -19,7 +19,10 @@ const Navbar = () => {
                     <a href="#">Contact</a>
                 </div>
 
-                
+                <div className="flex items-center gap-4">
+                    <button className="text-sm text-gray-600">Sign In</button>
+                    <button className="rounded-full bg-pink-600 px-5 py-2 text-sm text-white">Sign Up</button>
+                </div>
             </div>
         </nav>
     );
