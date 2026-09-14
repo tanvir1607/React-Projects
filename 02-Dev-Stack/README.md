@@ -2,6 +2,10 @@
 
 A simple and interactive React application where users can explore different technologies and build their own developer stack. Users can add technologies, remove individual technologies, or remove the entire stack.
 
+## 🌐 Live Demo
+
+[**Visit Dev Stack →**](https://02-dev-stack-iota.vercel.app/)
+
 ## 🛠️ Technologies Used
 
 * React
@@ -60,8 +64,6 @@ JSX is a syntax that allows us to write HTML-like code inside JavaScript or Type
 `useState` is used to create and manage changing data in a React component.
 
 I used `useState` to store the technologies, selected stack, and loading status.
-
-For example:
 
 ```tsx
 const [stack, setStack] = useState<SelectedTechnology[]>([]);
@@ -146,8 +148,6 @@ The `TechnologyCard` calls `onAdd` when the user clicks the **Add to Stack** but
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Tanvir Rahman Anik**
-
-Built with React, TypeScript, and Tailwind CSS.
