@@ -96,7 +96,7 @@ const Technologies = () => {
   };
 
   return (
-    <section className="max-w-6xl mx-auto px-6 py-10">
+    <section className="container mx-auto px-6 py-20 max-w-7xl">
       <ToastContainer
         position="bottom-right"
         autoClose={3000}
